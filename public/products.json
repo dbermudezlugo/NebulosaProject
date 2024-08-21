@@ -1,0 +1,47 @@
+[
+    {
+      "id": "1",
+      "name": "Aretes temáticos del Tolima",
+      "price": 15000,
+      "stock": 10,
+      "image": "https://www.artechibchacolombia.com/wp-content/uploads/2020/03/Tol2-7-scaled.jpg",
+      "description": "Aretes hechos a mano inspirados en la cultura del Tolima.",
+      "category": "aretes"
+    },
+    {
+      "id": "2",
+      "name": "Collar tradicional del Tolima",
+      "price": 25000,
+      "stock": 5,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdunN8fdTtm_iZoLP12fVJgrMNQrI-7UzDUA&s",
+      "description": "Collar tradicional del Tolima con detalles artesanales.",
+      "category": "collares"
+    },
+    {
+      "id": "3",
+      "name": "Figuras del Tolima",
+      "price": 20000,
+      "stock": 8,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKG13SCKuOJ3GbPIuti3aAwG-KJ2hQJOIlNg&s",
+      "description": "Figuras representativas de la región del Tolima.",
+      "category": "figuras"
+    },
+    {
+      "id": "4",
+      "name": "Cuadros de Pájaros del Tolima",
+      "price": 30000,
+      "stock": 3,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvn-o4d9cqtyKl5ZKZsLS2UahhHj9sQTUDTg&s",
+      "description": "Cuadros con ilustraciones de aves típicas del Tolima.",
+      "category": "cuadros"
+    },
+    {
+      "id": "5",
+      "name": "Mugs del Tolima",
+      "price": 10000,
+      "stock": 12,
+      "image": "https://charlanditocharlandito.com/wp-content/uploads/2022/04/IMG-Tolima-Ibague.jpg",
+      "description": "Mugs con diseños inspirados en la cultura del Tolima.",
+      "category": "mugs"
+    }
+  ]

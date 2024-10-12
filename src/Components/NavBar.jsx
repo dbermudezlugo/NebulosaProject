@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
 import CartWidget from './CartWidget';
 
-const NavBar = () => {
+// eslint-disable-next-line react/prop-types
+const NavBar = ({ cartItems }) => {
   return (
     <nav className="bg-blue-900 p-4">
       <div className="container mx-auto flex justify-between items-center">
@@ -13,7 +14,7 @@ const NavBar = () => {
           <li><Link to="/category/cuadros" className="text-white">Cuadros</Link></li>
           <li><Link to="/category/mugs" className="text-white">Mugs</Link></li>
         </ul>
-        <CartWidget />
+        <CartWidget cartItems={cartItems} />
       </div>
     </nav>
   );

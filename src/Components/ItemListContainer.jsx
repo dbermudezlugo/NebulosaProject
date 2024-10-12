@@ -1,11 +1,17 @@
+import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
 const ItemListContainer = ({ products, addToCart }) => {
+  const { categoryId } = useParams(); // Recibe la categoría de la URL
+  const filteredProducts = categoryId 
+    ? products.filter(product => product.category === categoryId) 
+    : products; // Filtra productos por categoría si existe
+
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4">Nuestros Productos</h1>
+      <h1 className="text-2xl font-bold mb-4">{categoryId ? `Categoría: ${categoryId}` : 'Nuestros Productos'}</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-        {products.map(product => (
+        {filteredProducts.map(product => (
           <div key={product.id} className="border rounded-lg overflow-hidden shadow-lg">
             <img src={product.image} alt={product.name} className="w-full h-48 object-cover" />
             <div className="p-4">
